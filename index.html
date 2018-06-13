@@ -1,0 +1,283 @@
+<html lang="">
+<head>
+    
+<title>Martin's Classic Cars</title>
+    
+<meta charset="utf-8">
+    
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+    
+<!-- CSS Files -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+    
+<!-- Contact Form -->
+<link href="contact-form/css/style.css" media="screen" rel="stylesheet" type="text/css">
+<link href="contact-form/css/uniform.css" media="screen" rel="stylesheet" type="text/css">
+    
+<!-- JS Files -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+    
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+    
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+    
+</script>
+</head>
+
+<body>
+    
+<!-- BODY START -->
+    
+<div class="header">
+  <div id="site_title"><a href="index.html"><img src="logo3.png" alt=""></a></div>
+  <!-- Main Menu -->
+    
+  <ol id="menu">
+    <li class="active_menu_item"><a href="index.html">Home</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="auction.html">Auction (May) </a></li>
+        <li><a href="a2.html">Auction (April)</a></li>
+      </ol>
+    </li>
+    <!-- END sub menu -->
+      
+
+      <!-- sub menu -->
+    <li><a href="inventory.html">Inventory</a></li>
+    <li><a href="showroom.html">Showroom</a></li>  
+    
+     <li><a href="about.html">About</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="faq.html">FAQ</a></li>
+        
+        <li class="last"><a href="ms.html">Mission Statement</a></li>
+      </ol>
+    </li>
+      
+    <!-- END sub menu -->
+    <li><a href="contact.html">Contact</a></li>
+  </ol>
+</div>
+<!-- END header -->
+    
+    
+<div id="container">
+  <!-- tab panes -->
+  <div id="prod_wrapper">
+    <div id="panes">
+        
+      <div> <img src="00.jpg" alt="">
+        <h2>Welcome to Martin's Classic Cars</h2>
+        <h5>1943 Chevy Pickup</h5>
+          
+    <ul class="container_links">
+      <li>- $199,000 </li>
+      <li>- 30,000 miles </li>
+      <li>- 1 Owner </li>
+      <li>- Smoke Free  </li>
+    </ul>
+          
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+        
+      <div> <img src="lac.jpg" alt="">
+        <h5>1935 Cadilla Town Car</h5>
+          
+        <ul class="container_links">
+      <li>- $211,000 </li>
+      <li>- 20,000 miles </li>
+      <li>- 4 Owners </li>
+      <li>- Family Heirloom  </li>
+    </ul>
+          
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+        
+      <div> <img src="airb.jpg" alt="">
+        <h5>1957 Belair</h5>
+          
+    <ul class="container_links">
+      <li>- $570,000 </li>
+      <li>- 8,000 miles </li>
+      <li>- 1 Owner </li>
+      <li>- Smoke Free  </li>
+    </ul>
+          
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+        
+      <div> <img src="typeA.jpeg" alt="">
+        <h5>1922 Type A</h5>
+     <ul class="container_links">
+      <li>- $110,099 </li>
+      <li>- 99,000 miles </li>
+      <li>- 8 Owners </li>
+      <li>- Smoker  </li>
+    </ul>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+        
+      <div> <img src="impala.jpeg" alt="">
+        <h5>1967 Chevy Impala </h5>
+       <ul class="container_links">
+      <li>- $99,000 </li>
+      <li>- 67,000 miles </li>
+      <li>- 1 Owner </li>
+      <li>- Smoker </li>
+    </ul>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+    </div>
+      
+    <!-- END tab panes -->
+    <br clear="all">
+    <!-- navigator -->
+    <div id="prod_nav">
+        
+      <ul>
+        <li><a href="#1"><img src="00.jpg" height="106" width="160" alt=""><strong>1943 Chevy Pickup </strong> $ 199,000</a></li>
+        <li><a href="#2"><img src="lac.jpg" width="160" alt=""><strong>1935 Cadillac Town Car</strong> $ 211,000</a></li>
+        <li><a href="#3"><img src="airb.jpg" height="109" width="160" alt=""><strong>1957 Belair</strong> $ 570,000 </a></li>
+        <li><a href="#4"><img src="typeA.jpeg" height="106" width="160" alt=""><strong>1922 Type A</strong> $ 110,099</a></li>
+        <li><a href="#5"><img src="impala.jpeg" height="106" width="160" alt=""><strong>1967 Chevy Impala</strong> $ 99,000</a></li>
+      </ul>
+    </div>
+    <!-- END navigator -->
+  </div>
+  <!-- END prod wrapper -->
+    
+  <div style="clear:both"></div>
+  <div class="one-third">
+    <h2>Classic Auctions</h2>
+    <p>Every third saturday from 9am - 3:30pm we conduct our famous Classic Car Auction. For consideration all
+            cars must meet register prior to. Contact us for more information! </p>
+    <p style="text-align:right; margin-right: 15px"><a href="contact.html" class="button_small">Contact us</a></p>
+  </div>
+    
+  <div class="one-third">
+    <h2>Our Famous Showroom</h2>
+    <p>Our famous showroom is open for viewing every day between the hour of 10am - 4:30pm. You can also take 
+            a look at some of our collection here, online! </p>
+    <p style="text-align:right; margin-right: 15px"><a href="showroom.html" class="button_small">Showroom</a></p>
+  </div>
+    
+  <div class="one-third last">
+    <h2>Latest News</h2>
+    <p>Here at Martin's Classic Cars we are passionate about rare, vintage cars and motorcycles. For that reason, 
+        we created a blog that we use to show what we think is cool.</p>
+    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">Read Article</a></p>
+  </div>
+    
+  <div style="clear:both"></div>
+  <div class="box_highlight" style="margin-top:40px">
+    <h2 style="text-align:center">"We love Martin's. They have classic cars." - Michael Jackson </h2>
+  </div>
+    
+  <div class="one-half">
+    <div class="heading_bg">
+        
+      <h2>About Us</h2>
+    </div>
+    <blockquote>Since 1943 we have strived to provide the best in vintage cars and customer service. We look forward to 
+      exceeding your expectations and becoming a lifetime provider of quality, vintage cars.</blockquote>
+    <p style="text-align:right; margin-right: 16px; margin-bottom: 15px"><a href="about.html" class="button" style="font-size: 18px">Find out more</a></p>
+    <div class="heading_bg">
+        
+      <h2>Martin's Pick of the Week</h2>
+    </div>
+      
+    <iframe src="https://www.youtube.com/embed/Ye982rHt-pU" width="465" height="262 frameborder=0" allowFullscreen></iframe>
+    
+    </div>
+    <div class="one-half last">
+    <div class="heading_bg">
+      <h2>Contact us today!</h2>
+    </div>
+        
+    <form action="#" class="TTWForm" method="post">
+      <div id="field1-container" class="field f_50">
+        <label for="field1">Name</label>
+        <input name="name" id="field1" type="text">
+      </div>
+      <div id="field2-container" class="field f_50">
+        <label for="field2">Telephone</label>
+        <input name="tel" id="field2" type="text">
+      </div>
+      <div id="field5-container" class="field f_50">
+        <label for="field5">Email</label>
+        <input name="email" id="field5" type="email">
+      </div>
+      <div id="field4-container" class="field f_100">
+        <label for="field4">Message</label>
+        <textarea rows="5" cols="20" name="message" id="field4"></textarea>
+      </div>
+      <div id="form-submit" class="field f_100 clearfix submit">
+        <input value="Submit" type="submit">
+      </div>
+    </form>
+  </div>
+    
+  <div style="clear:both; height: 40px"></div>
+</div>
+<!-- END container -->
+    
+<!-- START FOOTER --> 
+<div id="footer">
+    
+  <!-- First Column -->
+    <div class="one-fourth">
+    <h3>Useful Links</h3>
+    <ul class="footer_links">
+      <li><a href="inventory.html">Inventory</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="showroom.html">Showroom</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+    
+  <!-- Second Column -->
+    <div class="one-fourth">
+    <h3>Terms</h3>
+    <ul class="footer_links">
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="ms.html">Mission Statement</a></li>
+      <li><a href="#">Currivitas</a></li>
+      <li><a href="#">Salim Aritu</a></li>
+    </ul>
+  </div>
+    
+  <!-- Third Column -->
+  <div class="one-fourth">
+    <h3>Our Showroom</h3>
+    We have a large selection of different makes and models dating back to the 1890's. 
+    
+  </div>
+    
+  <!-- Fourth Column -->
+  <div class="one-fourth last">
+    <h3>Socialize</h3>
+    <img src="img/icon_fb.png" alt="www.facebook.com"> <img src="img/icon_twitter.png" alt=""> <img src="img/icon_in.png" alt=""> </div>
+  <div style="clear:both"></div>
+</div>
+    
+<!-- END footer -->
+</body>
+</html>
